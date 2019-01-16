@@ -1,0 +1,12 @@
+{
+  "name": "Habr.com navigation shortcuts",
+  "version": "1.0",
+  "description": "This extention will add some hotkeys to site habr.com. This is NOT a product of TechMedia, just a entusiast's work.",
+  "content_scripts": [
+    {
+      "matches": ["https://habr.com/*"],
+      "js": ["main.js"]
+    }
+  ],
+  "manifest_version": 2
+}
